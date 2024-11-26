@@ -1,0 +1,8 @@
+.evidence {
+  display: flex;
+  flex-direction: row;
+}
+
+.evidence > div {
+  padding: 16px 32px;
+}

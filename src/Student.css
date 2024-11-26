@@ -1,0 +1,24 @@
+.invalid-student {
+  background-color: red;
+}
+
+.valid-student {
+  background-color: green;
+}
+
+.valid-student > div,
+.invalid-student > div {
+  color: white;
+  padding: 16px;
+}
+
+.invalid-student,
+.valid-student {
+  display: flex;
+  flex-direction: row;
+}
+
+.valid-student:hover,
+.invalid-student:hover {
+  cursor: pointer;
+}

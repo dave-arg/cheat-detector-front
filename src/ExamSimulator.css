@@ -1,0 +1,15 @@
+.start-exam {
+  border-radius: 4px;
+  display: flex;
+  right: 150px;
+  position: fixed;
+  top: 250px;
+  background-color: white;
+  border: none;
+  padding: 40px;
+  border: 2px solid black;
+}
+
+.start-exam:hover {
+  background-color: #f1f1f1;
+}
